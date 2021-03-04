@@ -500,9 +500,9 @@
     #define DEFAULT_Ki_LIST {   1.54,   1.54 }
     #define DEFAULT_Kd_LIST {  76.55,  76.55 }
   #else
-    #define DEFAULT_Kp  21.73
-    #define DEFAULT_Ki   1.54
-    #define DEFAULT_Kd  76.55
+    #define DEFAULT_Kp   19.1
+    #define DEFAULT_Ki   1.34
+    #define DEFAULT_Kd   68.1
   #endif
 #endif // PIDTEMP
 
@@ -761,7 +761,7 @@
 //#define ENDSTOP_NOISE_THRESHOLD 2
 
 // Check for stuck or disconnected endstops during homing moves.
-//#define DETECT_BROKEN_ENDSTOP
+#define DETECT_BROKEN_ENDSTOP
 
 //=============================================================================
 //============================== Movement Settings ============================
@@ -1052,7 +1052,6 @@
 #define PROBING_MARGIN 25
 
 // X and Y axis travel speed (mm/min) between probes
-//#define XY_PROBE_FEEDRATE (133*60)
 #define XY_PROBE_FEEDRATE (200*60)
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
