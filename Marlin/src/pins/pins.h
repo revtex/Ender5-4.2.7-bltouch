@@ -378,7 +378,7 @@
 #elif MB(BTT_SKR_V1_3)
   #include "lpc1768/pins_BTT_SKR_V1_3.h"        // LPC1768                                env:LPC1768
 #elif MB(BTT_SKR_V1_4)
-  #include "lpc1768/pins_BTT_SKR_V1_4.h"        // LPC1768                                env:LPC1768_btt_skr_v1_4
+  #include "lpc1768/pins_BTT_SKR_V1_4.h"        // LPC1768                                env:LPC1768
 
 //
 // LPC1769 ARM Cortex M3
@@ -447,6 +447,8 @@
   #include "sam/pins_PRINTRBOARD_G2.h"          // SAM3X8C                                env:DUE_USB
 #elif MB(CNCONTROLS_15D)
   #include "sam/pins_CNCONTROLS_15D.h"          // SAM3X8E                                env:DUE env:DUE_USB
+#elif MB(KRATOS32)
+  #include "sam/pins_KRATOS32.h"                // SAM3X8E                                env:DUE env:DUE_USB
 
 //
 // STM32 ARM Cortex-M0
